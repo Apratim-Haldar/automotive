@@ -74,12 +74,4 @@ You can control most parameters via CLI flags, no code changes required:
 
 Artifacts script writes a `config_used.json` capturing all parameters of the run.
 
-## Submission and demo
-- What to submit:
-	- The `v2x_sim` folder (or a Git repo link).
-	- The generated `artifacts/` folder containing: `metrics.json`, `signal_timeline.csv`, `vehicles_exited_over_time.csv`, and `run_log.txt`.
-	- A short PDF or README section summarizing: scenario, V2V logic, V2I logic, metrics and observations.
-- How to demonstrate (suggested):
-	1) Run tests to show correctness. 2) Run the scenario to print metrics. 3) Show `artifacts/` files and briefly explain the signal timeline and throughput. Optionally include a short screen recording.
-
 For a detailed walkthrough with copy-paste commands, see `docs/GUIDE.md`.

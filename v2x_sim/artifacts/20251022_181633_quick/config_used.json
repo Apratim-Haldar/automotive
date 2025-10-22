@@ -1,0 +1,17 @@
+{
+  "duration": 5.0,
+  "dt": 0.1,
+  "ew_count": 2,
+  "ns_count": 2,
+  "spawn_gap_ew": 2.5,
+  "spawn_gap_ns": 2.2,
+  "v_ew": 12.0,
+  "v_ns": 11.0,
+  "seed": 42,
+  "signal": {
+    "min_green": 8.0,
+    "max_green": 25.0,
+    "yellow": 3.0,
+    "all_red": 1.0
+  }
+}

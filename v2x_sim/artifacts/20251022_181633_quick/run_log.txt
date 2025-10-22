@@ -1,0 +1,4 @@
+--- Simulation Complete ---
+Time: 5.0s | Vehicles exited: 0
+Collisions: 0 | Near-misses: 0
+Total delay: 12.77

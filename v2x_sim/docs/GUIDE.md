@@ -41,22 +41,6 @@ Example:
 python .\main.py --duration 90 --dt 0.05 --ew-count 8 --ns-count 10 --spawn-gap-ew 2.0 --spawn-gap-ns 1.8 --v-ew 13 --v-ns 12 --min-green 6 --max-green 20 --yellow 3 --all-red 1
 ```
 
-## Generate artifacts for submission
-Creates a timestamped folder under `artifacts/` with:
-- `metrics.json` (summary numbers)
-- `signal_timeline.csv` (state over time + approaching counts)
-- `vehicles_exited_over_time.csv` (throughput over time)
-- `run_log.txt` (human-readable summary)
-- `config_used.json` (all parameters of the run)
-
-```powershell
-# Default
-python .\scripts\generate_submission_artifacts.py
-
-# With parameters and a label for the folder
-python .\scripts\generate_submission_artifacts.py --duration 90 --ew-count 10 --ns-count 10 --min-green 6 --max-green 18 --tag demo
-```
-
 ## One-command demo (PowerShell script)
 Use `scripts\run_demo.ps1` to run tests, simulation, and artifacts in one go. You can override defaults with parameters.
 
